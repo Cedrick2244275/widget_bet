@@ -1,0 +1,27 @@
+# Archivo: requirements.txt
+
+# Interfaz gráfica
+PyQt6==6.5.0
+PyQt6-Qt6==6.5.0
+PyQt6-sip==13.5.0
+
+# Procesamiento de imágenes y colores
+Pillow==10.0.0
+colorthief==0.2.1
+
+# Control de reproductores y detección de música
+spotipy==2.23.0
+pycaw==20230407
+pywin32==306
+psutil>=5.9.0
+pyautogui>=0.9.54
+
+# Para obtener letras de canciones
+lyricsgenius==3.0.1
+requests==2.31.0
+pycryptodome==3.19.0  # Para encriptación en NetEase
+beautifulsoup4>=4.6.0
+
+# Otras utilidades
+python-dotenv==1.0.0
+comtypes>=1.1.7
